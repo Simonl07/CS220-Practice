@@ -5,7 +5,7 @@
 
 int main(void){
     char input[200];
-    printf("Enter the temperature(in format ##.##C or ##.##F): ");
+    printf("Enter the temperature(in format \"<value>C\" or \"<value>F\"): ");
     scanf("%s", input);
     char mode = input[strlen(input)-1];
     float output;
